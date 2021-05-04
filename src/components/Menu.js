@@ -12,7 +12,7 @@ const Menu = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <LinkContainer to="/">
-              <Nav.Link>Testnet Tracker</Nav.Link>
+              <Nav.Link>Testnets Tracker</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/channels">
               <Nav.Link>IBC Channels</Nav.Link>
