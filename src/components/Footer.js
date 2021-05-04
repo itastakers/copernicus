@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import links from "../links.json";
@@ -7,29 +8,14 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <>
-      <footer
-        className="text-center"
-        style={{ display: "flex", justifyContent: "space-between" }}
-      >
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "left",
-            alignContent: "left",
-          }}
-        >
+      <footer className="text-center">
+        <div>
           Made by{" "}
           <a href="https://itastakers.com" target="_blank">
             🇮🇹 ITA Stakers
           </a>
         </div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "right",
-            alignContent: "right",
-          }}
-        >
+        <div>
           {links &&
             links.map((link, index) => (
               <Link
