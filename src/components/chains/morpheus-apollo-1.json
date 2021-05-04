@@ -2,7 +2,8 @@
   "name": "Desmos",
   "chainId": "morpheus-apollo-1",
   "sdk_version": "v0.40 >",
-  "incentivized": true,
+  "incentivized": false,
+  "ibc_ready": true,
   "start_date": "2021-04-27",
   "links": [
     {

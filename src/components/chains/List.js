@@ -36,6 +36,7 @@ const Keplr = ({ head, description }) => {
                 <th style={{ width: "120px" }}>Start</th>
                 <th style={{ width: "120px" }}>End</th>
                 <th style={{ width: "120px" }}>Status</th>
+                <th style={{ width: "120px" }}>IBC</th>
                 <th style={{ width: "120px" }}>Incentivized</th>
                 <th>Links</th>
                 <th style={{ width: "120px" }}></th>
@@ -64,6 +65,7 @@ const Keplr = ({ head, description }) => {
                         <span className="text-success">Active</span>
                       )}
                     </td>
+                    <td>{chain.ibc_ready ? "✅" : "✖️"} </td>
                     <td>{chain.incentivized ? "✅" : "✖️"} </td>
                     <td>
                       {" "}
