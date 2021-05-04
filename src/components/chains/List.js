@@ -1,4 +1,4 @@
-import { Table, Alert, Col, Row, Badge } from "react-bootstrap";
+import { Table, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -1,7 +1,6 @@
 import Header from "../components/Header";
 import Meta from "../components/Meta";
 import TableList from "../components/chains/List";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   // page content

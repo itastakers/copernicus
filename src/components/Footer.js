@@ -1,11 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import links from "../links.json";
 
 const Footer = () => {
-  const year = new Date().getFullYear();
   return (
     <>
       <footer className="text-center">
