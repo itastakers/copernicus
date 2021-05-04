@@ -1,0 +1,20 @@
+[
+    {
+        "prefix": "fab",
+        "iconName": "github",
+        "tooltip": "Repository",
+        "url": "https://github.com/itastakers"
+    },
+    {
+        "prefix": "fab",
+        "iconName": "twitter",
+        "tooltip": "Twitter",
+        "url": "https://twitter.com/ItaStakers"
+    },
+    {
+        "prefix": "fab",
+        "iconName": "telegram",
+        "tooltip": "Telegram",
+        "url": "https://t.me/Itastakers"
+    }
+]

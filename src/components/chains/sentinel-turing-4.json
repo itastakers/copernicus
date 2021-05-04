@@ -1,0 +1,77 @@
+{
+    "name": "Sentinel",
+    "chainId": "sentinel-turing-4",
+    "sdk_version": "v0.40 >",
+    "incentivized": true,
+    "start_date": "2021-02-25",
+    "end_date": "",
+    "links": [
+      {
+        "prefix": "fab",
+        "iconName": "github",
+        "tooltip": "Repository",
+        "url": "https://github.com/sentinel-official/"
+      },
+      {
+        "prefix": "fas",
+        "iconName": "book",
+        "tooltip": "Documentation",
+        "url": "https://github.com/sentinel-official/docs/tree/master/guides/testnets/turing-4"
+      },
+      {
+        "prefix": "fab",
+        "iconName": "twitter",
+        "tooltip": "Twitter",
+        "url": "https://twitter.com/sentinel_co"
+      },
+      {
+        "prefix": "fab",
+        "iconName": "telegram",
+        "tooltip": "Telegram",
+        "url": "https://t.me/sentinel_co"
+      }
+    ],
+    "keplr": {
+      "chainId": "sentinel-turing-4",
+      "chainName": "sentinel-turing-4",
+      "rpc": "https://rpc-sentinel-turing-4.itastakers.com",
+      "rest": "https://lcd-sentinel-turing-4.itastakers.com",
+      "stakeCurrency": {
+        "coinDenom": "tsent",
+        "coinMinimalDenom": "tsent",
+        "coinDecimals": 6
+      },
+      "bip44": {
+        "coinType": 118
+      },
+      "bech32Config": {
+        "bech32PrefixAccAddr": "sent",
+        "bech32PrefixAccPub": "sentpub",
+        "bech32PrefixValAddr": "sentvaloper",
+        "bech32PrefixValPub": "sentvaloperpub",
+        "bech32PrefixConsAddr": "sentvalcons",
+        "bech32PrefixConsPub": "sentvalconspub"
+      },
+      "currencies": [
+        {
+          "coinDenom": "tsent",
+          "coinMinimalDenom": "tsent",
+          "coinDecimals": 6
+        }
+      ],
+      "feeCurrencies": [
+        {
+          "coinDenom": "tsent",
+          "coinMinimalDenom": "tsent",
+          "coinDecimals": 6
+        }
+      ],
+      "coinType": 118,
+      "gasPriceStep": {
+        "low": 0.1,
+        "average": 0.25,
+        "high": 0.5
+      },
+      "features": ["stargate"]
+    }
+}

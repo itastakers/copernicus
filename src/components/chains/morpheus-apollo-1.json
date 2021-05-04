@@ -1,0 +1,77 @@
+{
+  "name": "Desmos",
+  "chainId": "morpheus-apollo-1",
+  "sdk_version": "v0.40 >",
+  "incentivized": true,
+  "start_date": "2021-04-27",
+  "links": [
+    {
+      "prefix": "fab",
+      "iconName": "github",
+      "tooltip": "Repository",
+      "url": "https://github.com/desmos-labs"
+    },
+    {
+      "prefix": "fas",
+      "iconName": "book",
+      "tooltip": "Documentation",
+      "url": "https://github.com/desmos-labs/morpheus/tree/master/morpheus-apollo-1"
+    },
+    {
+      "prefix": "fab",
+      "iconName": "twitter",
+      "tooltip": "Twitter",
+      "url": "https://twitter.com/DesmosNetwork"
+    },
+    {
+      "prefix": "fab",
+      "iconName": "discord",
+      "tooltip": "Discord",
+      "url": "https://discord.gg/yxPRGdq"
+    }
+  ],
+  "end_date": "",
+    "keplr": {
+      "chainId": "morpheus-apollo-1",
+      "chainName": "morpheus-apollo-1",
+      "rpc": "https://rpc-desmos-morpheus.itastakers.com",
+      "rest": "https://lcd-desmos-morpheus.itastakers.com",
+      "stakeCurrency": {
+        "coinDenom": "daric",
+        "coinMinimalDenom": "udaric",
+        "coinDecimals": 6
+      },
+      "bip44": {
+        "coinType": 118
+      },
+      "bech32Config": {
+        "bech32PrefixAccAddr": "desmos",
+        "bech32PrefixAccPub": "desmospub",
+        "bech32PrefixValAddr": "desmosvaloper",
+        "bech32PrefixValPub": "desmosvaloperpub",
+        "bech32PrefixConsAddr": "desmosvalcons",
+        "bech32PrefixConsPub": "desmosvalconspub"
+      },
+      "currencies": [
+        {
+          "coinDenom": "daric",
+          "coinMinimalDenom": "udaric",
+          "coinDecimals": 6
+        }
+      ],
+      "feeCurrencies": [
+        {
+          "coinDenom": "daric",
+          "coinMinimalDenom": "udaric",
+          "coinDecimals": 6
+        }
+      ],
+      "coinType": 118,
+      "gasPriceStep": {
+        "low": 0.1,
+        "average": 0.25,
+        "high": 0.5
+      },
+      "features": ["stargate"]
+    }
+}
