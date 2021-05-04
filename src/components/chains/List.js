@@ -1,4 +1,4 @@
-import { Table, Col, Row, Badge } from "react-bootstrap";
+import { Table, Alert, Col, Row, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -58,9 +58,11 @@ const Keplr = ({ head, description }) => {
                     <td>
                       {chain.end_date !== "" &&
                       chain.end_date !== null &&
-                      end_time < today
-                        ? "Ended"
-                        : "Active"}
+                      end_time < today ? (
+                        <span className="text-secondary">Ended</span>
+                      ) : (
+                        <span className="text-success">Active</span>
+                      )}
                     </td>
                     <td>{chain.incentivized ? "✅" : "✖️"} </td>
                     <td>
