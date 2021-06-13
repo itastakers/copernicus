@@ -1,0 +1,35 @@
+{
+  "name": "BitCanna",
+  "chainId": "bitcanna-testnet-3",
+  "sdk_version": "v0.40 >",
+  "incentivized": true,
+  "ibc_ready": true,
+  "start_date": "2021-06-17",
+  "end_date": "",
+  "links": [
+    {
+      "prefix": "fab",
+      "iconName": "github",
+      "tooltip": "Repository",
+      "url": "https://github.com/BitCannaGlobal"
+    },
+    {
+      "prefix": "fas",
+      "iconName": "book",
+      "tooltip": "Documentation",
+      "url": "https://github.com/BitCannaGlobal/testnet-bcna-cosmos/tree/main/instructions/stage2"
+    },
+    {
+      "prefix": "fab",
+      "iconName": "twitter",
+      "tooltip": "Twitter",
+      "url": "https://twitter.com/BitcannaGlobal"
+    },
+    {
+      "prefix": "fab",
+      "iconName": "telegram",
+      "tooltip": "Telegram",
+      "url": "https://t.me/BitcannaGlobal"
+    }
+  ]
+}

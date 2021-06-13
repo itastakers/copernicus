@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import chains from "./";
 import AddToKeplr from "./AddToKeplr";
 
-const Keplr = ({ head, description }) => {
+const List = ({ head, description }) => {
   const today = new Date();
   return (
     <div className="starter-template text-center mt-5">
@@ -57,7 +57,9 @@ const Keplr = ({ head, description }) => {
                     <td>{chain.start_date}</td>
                     <td>{chain.end_date}</td>
                     <td>
-                      {chain.end_date !== "" &&
+                      {new Date(chain.start_date) > today ? (
+                        <span className="text-grey">Starting soon</span>
+                      ) : chain.end_date !== "" &&
                       chain.end_date !== null &&
                       end_time < today ? (
                         <span className="text-secondary">Ended</span>
@@ -103,4 +105,4 @@ const Keplr = ({ head, description }) => {
   );
 };
 
-export default Keplr;
+export default List;
